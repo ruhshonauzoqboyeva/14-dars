@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
@@ -12,15 +12,35 @@
         <section>
           <div class="container">
             <div class="wrapper">
-              <div class="card">
-                <img src="./assets/image/istockphoto-1034587098-612x612.jpg" alt="" />
-                <h2>lorem</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
-                  sequi! Est quaerat laboriosam, placeat omnis deleniti ipsum
-                  saepe nisi in!
-                </p>
-              </div>
+              <h2>Registration form</h2>
+              <div class="line"></div>
+              <form action="#">
+                <label for="f_name">
+                  <p>Enter the first name <span>*</span></p>
+                  <input id="f_name" type="text" required />
+                </label>
+
+                <label for="l_name">
+                  <p>enter the last name</p>
+                  <input id="l_name" type="text" />
+                </label>
+
+                <label for="number">
+                  <p>enter the phone number</p>
+                  <input id="number" type="number" maxlength="10" />
+                </label>
+                <label for="sbm">
+                  <input type="submit" name="" id="sbm" />
+                </label>
+
+                <select name="" id="">
+                  <option value="">malibu</option>
+                  <option value="">jentra</option>
+                  <option value="">spark</option>
+                  <option value="">mers</option>
+                  <option value="">gelik</option>
+                </select>
+              </form>
             </div>
           </div>
         </section>
